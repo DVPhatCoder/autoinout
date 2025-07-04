@@ -28,7 +28,7 @@ function App() {
       });
       const data = await res.json();
       if (res.ok) {
-        setMessage('Ghi dữ liệu thành công!');
+        setMessage('thành công!');
       } else {
         setMessage('Lỗi: ' + (data.error || 'Không xác định'));
       }
