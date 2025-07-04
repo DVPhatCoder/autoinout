@@ -17,7 +17,7 @@ function App() {
     setMessage('');
     try {
       const values = setValue(Number(month), Number(year));
-      const res = await fetch('http://localhost:5000/api/insert', {
+      const res = await fetch('https://autoinoutin.onrender.com/api/insert', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
